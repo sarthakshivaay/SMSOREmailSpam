@@ -8,11 +8,7 @@ import string
 
 nltk.download('stopwords')
 nltk.download('wordnet')
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 41b324dbd23c12c12d296800bd4e41eecfdfca99
 ps=PorterStemmer()
 
 tfidf=pickle.load(open('vectorizer.pkl','rb'))
