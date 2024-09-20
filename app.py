@@ -7,7 +7,7 @@ import string
 
 
 nltk.download('stopwords')
-nltk.download('wordnet')
+
 
 ps=PorterStemmer()
 
