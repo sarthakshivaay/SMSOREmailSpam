@@ -46,7 +46,7 @@ if st.button('Predict'):
     #2.vectorize
     vector_input=tfidf.transform([transform_sms])
     #3.predict
-    result==model.predict(vector_input)[0]
+    result=model.predict(vector_input)[0]
     #4.Display
     if result ==1:
         st.header("Spam")
