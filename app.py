@@ -5,6 +5,11 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import string
 
+
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+
 ps=PorterStemmer()
 
 tfidf=pickle.load(open('vectorizer.pkl','rb'))
